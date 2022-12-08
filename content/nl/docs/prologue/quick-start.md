@@ -35,13 +35,13 @@ Not quite sure? Use the Doks child theme.
 #### Doks child theme
 
 ```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
+git clone https://github.com/local-vocal-child-theme.git my-doks-site
 ```
 
 #### Doks starter theme
 
 ```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
+git clone https://github.com/local-vocal.git my-doks-site
 ```
 
 ### Change directories

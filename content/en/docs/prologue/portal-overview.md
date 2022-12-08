@@ -1,5 +1,5 @@
 ---
-title: "Quick Start"
+title: "Portal overview"
 description: "One page summary of how to start a new Doks project."
 lead: "One page summary of how to start a new Doks project."
 date: 2020-11-16T13:59:39+01:00
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 110
+weight: 115
 toc: true
 ---
 
@@ -37,7 +37,7 @@ Doks is available as a child theme and a starter theme.
 - [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
+git clone https://github.com/local-vocal-child-theme.git my-doks-site
 ```
 
 #### Starter theme
@@ -47,7 +47,7 @@ git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
 - [Easily update npm packages]({{< relref "how-to-update" >}})
 
 ```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
+git clone https://github.com/local-vocal.git my-doks-site
 ```
 
 {{< details "Help me choose" >}}
