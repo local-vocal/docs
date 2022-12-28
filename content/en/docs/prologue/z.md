@@ -1,19 +1,40 @@
----
-title: "Portal overview"
-description: "One page summary of how to start a new Doks project."
-lead: "One page summary of how to start a new Doks project."
-date: 2020-11-16T13:59:39+01:00
-lastmod: 2020-11-16T13:59:39+01:00
-draft: false
-images: []
-menu:
-  docs:
-    parent: "prologue"
-weight: 115
-toc: true
----
+### Tutorial
 
-## Requirements
+{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
+
+Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+
+### Quick Start
+
+{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
+
+## Go further
+
+Recipes, Reference Guides, Extensions, and Showcase.
+
+### Recipes
+
+Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+
+### Reference Guides
+
+Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+
+### Extensions
+
+Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
+
+### Showcase
+
+See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
+
+## Contributing
+
+Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+
+## Help
+
+Get help on Doks. [Help →]({{< relref "how-to-update" >}})
 
 - [Git](https://git-scm.com/) — latest source release
 - [Node.js](https://nodejs.org/) — latest LTS version or newer
@@ -34,7 +55,7 @@ Doks is available as a child theme and a starter theme.
 
 - Intended for novice to intermediate users
 - Intended for minor customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+- [Easily update npm packages]({{< relref "how-to-update" >}}) — **including** [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
 git clone https://github.com/local-vocal-child-theme.git my-doks-site

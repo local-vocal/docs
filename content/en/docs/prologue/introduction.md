@@ -1,7 +1,7 @@
 ---
-title: "Introduction"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+title: "What is Vernacle? "
+description: "Vernacle is collaborative tool foy you and your team/s to manage translations of mobile apps, games, and websites. The translation management system automates, manages, and translates content for your teams."
+lead: "Vernacle is collaborative tool foy you and your team/s to manage translations of mobile apps, games, and websites. The translation management system automates, manages, and translates content for your teams."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -13,45 +13,17 @@ weight: 100
 toc: true
 ---
 
-## Get started
+## What can I do with Vernacle?
 
-There are two main ways to get started with Doks:
+- Translate your [localization files](supported-file-formats/) (Android resources, iOS strings, json, arb...).
+- Collaborate and manage all your software localization projects in one platform.
+- Implement an agile localization workflow.
+- Add screenshots matching with the text strings in your projects.
+- Keep versioning of localization content according to your software release cycles.
+- Set up automated workflows via API, and use git webhooks.
 
-### Tutorial
+## Who is Vernacle for?
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
-
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
-
-### Quick Start
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
-
-
-## Go further
-
-Recipes, Reference Guides, Extensions, and Showcase.
-
-### Recipes
-
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
-
-### Reference Guides
-
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
-
-### Extensions
-
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/breadcrumb-navigation/)
-
-### Showcase
-
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/electric-blocks/)
-
-## Contributing
-
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
-
-## Help
-
-Get help on Doks. [Help →]({{< relref "how-to-update" >}})
+- <i><u>Developers</u></i> who want to reduce the routine manual operations by automating the translation and localization workflow.
+- <i><u>Project Managers (PM's)</u></i> & <i><u>Managers</u></i> who want to make the localization process faster and manage all projects and team in one place and in a more efficient way.
+- <i><u>Translators</u></i> / <i><u>Copy writers</u></i> who want to provide the high-quality translations by leveraging screenshots, comments and other tools.
