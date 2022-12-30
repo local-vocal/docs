@@ -1,10 +1,14 @@
 var suggestions = document.getElementById('suggestions');
 var search = document.getElementById('search');
+var buttonR = document.getElementById('butto_try');
 
 if (search !== null) {
   document.addEventListener('keydown', inputFocus);
 }
 
+buttonR.addEventListener('click', function(event){
+  window.open("https://vernacle.in", "_blank")
+})
 function inputFocus(e) {
   if (e.ctrlKey && e.key === '/' ) {
     e.preventDefault();
