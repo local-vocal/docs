@@ -160,6 +160,52 @@ button#doks-versions {
 }
 */
 
+
+.container-btn-talk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+.container-btn-talk a {
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 5px 25px;
+  color: #f4f4f4;
+}
+
+.btn-talk {
+  text-decoration: none;
+  border: 1px solid #00c483;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-talk:hover {
+  box-shadow: 1px 1px 25px 10px #00c48366;
+}
+
+.btn-talk::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    #00c48366,
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn-talk:hover::before {
+  left: 100%;
+}
+
 @include media-breakpoint-up(md) {
   .navbar-brand {
     margin-right: 0.75rem !important;
